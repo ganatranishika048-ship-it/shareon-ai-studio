@@ -63,7 +63,7 @@ export function Pricing() {
             transition={{ duration: 0.4, delay: i * 0.06 }}
             className={`relative overflow-hidden rounded-3xl p-6 ${
               p.highlight
-                ? "glass-strong ring-1 ring-[oklch(0.68_0.22_295/0.5)]"
+                ? "glass-strong ring-1 ring-[oklch(0.60_0.09_250/0.5)]"
                 : "glass"
             }`}
           >
@@ -87,7 +87,7 @@ export function Pricing() {
                 href="#"
                 className={`mt-6 block rounded-xl py-2.5 text-center text-sm font-medium transition-transform hover:scale-[1.02] ${
                   p.highlight
-                    ? "bg-gradient-brand text-white shadow-[0_18px_50px_-15px_oklch(0.68_0.22_295/0.8)]"
+                    ? "bg-gradient-brand text-white shadow-[0_18px_50px_-15px_oklch(0.60_0.09_250/0.8)]"
                     : "glass-strong text-foreground"
                 }`}
               >
@@ -97,7 +97,7 @@ export function Pricing() {
               <ul className="mt-6 space-y-2.5">
                 {p.features.map((f) => (
                   <li key={f} className="flex items-start gap-2 text-sm">
-                    <Check className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(0.82_0.15_200)]" />
+                    <Check className="mt-0.5 h-4 w-4 shrink-0 text-[oklch(0.72_0.10_210)]" />
                     <span className="text-muted-foreground">{f}</span>
                   </li>
                 ))}

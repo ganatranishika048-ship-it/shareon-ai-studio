@@ -67,7 +67,7 @@ export function Nav() {
             </a>
             <a
               href="#"
-              className="rounded-lg bg-gradient-brand px-4 py-2 text-sm font-medium text-white shadow-[0_8px_24px_-12px_oklch(0.68_0.22_295/0.8)] transition-transform hover:scale-[1.03]"
+              className="rounded-lg bg-gradient-brand px-4 py-2 text-sm font-medium text-white shadow-[0_8px_24px_-12px_oklch(0.60_0.09_250/0.8)] transition-transform hover:scale-[1.03]"
             >
               Start Free
             </a>

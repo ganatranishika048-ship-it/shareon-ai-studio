@@ -74,7 +74,7 @@ export function Features() {
             className="group relative overflow-hidden rounded-2xl glass p-5 transition-all hover:bg-white/[0.05]"
           >
             <div className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-gradient-brand opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-30" />
-            <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-brand shadow-[0_8px_24px_-12px_oklch(0.68_0.22_295/0.8)]">
+            <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-brand shadow-[0_8px_24px_-12px_oklch(0.60_0.09_250/0.8)]">
               <it.icon className="h-5 w-5 text-white" />
             </div>
             <h3 className="mt-4 text-base font-semibold">{it.title}</h3>
