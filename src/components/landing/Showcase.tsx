@@ -123,8 +123,8 @@ function PanelBrand() {
             />
             <defs>
               <linearGradient id="bg" x1="0" x2="1">
-                <stop offset="0%" stopColor="oklch(0.68 0.22 295)" />
-                <stop offset="100%" stopColor="oklch(0.82 0.15 200)" />
+                <stop offset="0%" stopColor="oklch(0.60 0.09 250)" />
+                <stop offset="100%" stopColor="oklch(0.72 0.10 210)" />
               </linearGradient>
             </defs>
           </svg>
@@ -214,7 +214,7 @@ function PanelCRM() {
           <div className="col-span-1 text-right">
             <span
               className={`inline-block h-2 w-2 rounded-full ${
-                r.h ? "bg-[oklch(0.82_0.15_200)] shadow-[0_0_8px_oklch(0.82_0.15_200)]" : "bg-white/15"
+                r.h ? "bg-[oklch(0.72_0.10_210)] shadow-[0_0_8px_oklch(0.72_0.10_210)]" : "bg-white/15"
               }`}
             />
           </div>
@@ -269,7 +269,7 @@ function PanelAnalytics() {
         <div key={s.l} className="rounded-xl bg-white/[0.03] p-4">
           <div className="text-[10px] text-muted-foreground">{s.l}</div>
           <div className="mt-1 text-2xl font-semibold">{s.v}</div>
-          <div className="text-[11px] text-[oklch(0.82_0.15_200)]">{s.d}</div>
+          <div className="text-[11px] text-[oklch(0.72_0.10_210)]">{s.d}</div>
         </div>
       ))}
       <div className="md:col-span-4 rounded-xl bg-white/[0.03] p-4">

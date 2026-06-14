@@ -14,7 +14,7 @@ export function FinalCTA() {
         >
           <div className="pointer-events-none absolute inset-0 bg-gradient-soft" />
           <div className="pointer-events-none absolute -left-20 -top-20 h-80 w-80 rounded-full bg-gradient-brand opacity-30 blur-3xl" />
-          <div className="pointer-events-none absolute -right-20 -bottom-20 h-80 w-80 rounded-full bg-[radial-gradient(circle,oklch(0.82_0.15_200/0.4),transparent_70%)] blur-3xl" />
+          <div className="pointer-events-none absolute -right-20 -bottom-20 h-80 w-80 rounded-full bg-[radial-gradient(circle,oklch(0.72_0.10_210/0.4),transparent_70%)] blur-3xl" />
 
           <div className="relative">
             <h2 className="mx-auto max-w-3xl text-balance text-3xl font-semibold tracking-tight sm:text-5xl">
@@ -28,7 +28,7 @@ export function FinalCTA() {
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <a
                 href="#"
-                className="group inline-flex items-center gap-2 rounded-xl bg-gradient-brand px-5 py-3 text-sm font-medium text-white shadow-[0_18px_50px_-15px_oklch(0.68_0.22_295/0.8)] transition-transform hover:scale-[1.03]"
+                className="group inline-flex items-center gap-2 rounded-xl bg-gradient-brand px-5 py-3 text-sm font-medium text-white shadow-[0_18px_50px_-15px_oklch(0.60_0.09_250/0.8)] transition-transform hover:scale-[1.03]"
               >
                 Start Free Today
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />

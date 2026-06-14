@@ -24,7 +24,7 @@ export function Hero() {
     <section className="relative overflow-hidden pt-36 pb-24 lg:pt-44 lg:pb-32">
       {/* background glows */}
       <div className="pointer-events-none absolute inset-0 grid-pattern opacity-40 [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
-      <div className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[600px] w-[1100px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,oklch(0.68_0.22_295/0.35),transparent_60%)] blur-2xl" />
+      <div className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[600px] w-[1100px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,oklch(0.60_0.09_250/0.35),transparent_60%)] blur-2xl" />
 
       <div className="mx-auto w-full max-w-7xl px-4">
         <motion.div
@@ -53,7 +53,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
               href="#"
-              className="group inline-flex items-center gap-2 rounded-xl bg-gradient-brand px-5 py-3 text-sm font-medium text-white shadow-[0_18px_50px_-15px_oklch(0.68_0.22_295/0.8)] transition-transform hover:scale-[1.03]"
+              className="group inline-flex items-center gap-2 rounded-xl bg-gradient-brand px-5 py-3 text-sm font-medium text-white shadow-[0_18px_50px_-15px_oklch(0.60_0.09_250/0.8)] transition-transform hover:scale-[1.03]"
             >
               Start Free
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
@@ -179,7 +179,7 @@ function DashboardPreview() {
                     {t}
                   </div>
                   <div className="ml-3 flex shrink-0 items-center gap-2 text-[10px] text-muted-foreground">
-                    <CheckCircle2 className="h-3 w-3 text-[oklch(0.82_0.15_200)]" />
+                    <CheckCircle2 className="h-3 w-3 text-[oklch(0.72_0.10_210)]" />
                     Ready
                   </div>
                 </div>
@@ -221,7 +221,7 @@ function DashboardPreview() {
           <div className="rounded-xl bg-white/[0.02] p-4">
             <div className="flex items-center justify-between">
               <div className="text-xs text-muted-foreground">Lead Gen</div>
-              <TrendingUp className="h-3.5 w-3.5 text-[oklch(0.82_0.15_200)]" />
+              <TrendingUp className="h-3.5 w-3.5 text-[oklch(0.72_0.10_210)]" />
             </div>
             <div className="mt-2 text-xl font-semibold">$48.2k</div>
             <div className="text-[11px] text-muted-foreground">
@@ -296,10 +296,10 @@ function StatCard({
 }) {
   const toneClass =
     tone === "purple"
-      ? "from-[oklch(0.68_0.22_295/0.3)] to-transparent"
+      ? "from-[oklch(0.60_0.09_250/0.3)] to-transparent"
       : tone === "blue"
-        ? "from-[oklch(0.66_0.20_255/0.3)] to-transparent"
-        : "from-[oklch(0.82_0.15_200/0.3)] to-transparent";
+        ? "from-[oklch(0.58_0.07_245/0.3)] to-transparent"
+        : "from-[oklch(0.72_0.10_210/0.3)] to-transparent";
   return (
     <div
       className={`relative overflow-hidden rounded-xl bg-white/[0.02] p-3`}
@@ -310,7 +310,7 @@ function StatCard({
       <div className="text-[10px] text-muted-foreground">{label}</div>
       <div className="mt-1 flex items-baseline gap-2">
         <span className="text-lg font-semibold">{value}</span>
-        <span className="text-[10px] text-[oklch(0.82_0.15_200)]">{delta}</span>
+        <span className="text-[10px] text-[oklch(0.72_0.10_210)]">{delta}</span>
       </div>
     </div>
   );
@@ -334,12 +334,12 @@ function MiniChart() {
     <svg viewBox={`0 0 ${w} ${h}`} className="h-28 w-full">
       <defs>
         <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
-          <stop offset="0%" stopColor="oklch(0.68 0.22 295)" stopOpacity="0.5" />
-          <stop offset="100%" stopColor="oklch(0.68 0.22 295)" stopOpacity="0" />
+          <stop offset="0%" stopColor="oklch(0.60 0.09 250)" stopOpacity="0.5" />
+          <stop offset="100%" stopColor="oklch(0.60 0.09 250)" stopOpacity="0" />
         </linearGradient>
         <linearGradient id="s" x1="0" x2="1" y1="0" y2="0">
-          <stop offset="0%" stopColor="oklch(0.68 0.22 295)" />
-          <stop offset="100%" stopColor="oklch(0.82 0.15 200)" />
+          <stop offset="0%" stopColor="oklch(0.60 0.09 250)" />
+          <stop offset="100%" stopColor="oklch(0.72 0.10 210)" />
         </linearGradient>
       </defs>
       <path d={area} fill="url(#g)" />

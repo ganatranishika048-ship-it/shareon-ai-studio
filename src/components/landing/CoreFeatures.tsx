@@ -37,9 +37,9 @@ export function CoreFeatures() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: i * 0.03 }}
-            className="group relative bg-[oklch(0.18_0.028_270)] p-6 transition-colors hover:bg-[oklch(0.21_0.030_270)]"
+            className="group relative bg-[oklch(0.17_0.025_255)] p-6 transition-colors hover:bg-[oklch(0.20_0.028_255)]"
           >
-            <f.icon className="h-6 w-6 text-[oklch(0.82_0.15_200)]" />
+            <f.icon className="h-6 w-6 text-[oklch(0.72_0.10_210)]" />
             <h3 className="mt-4 text-sm font-semibold">{f.title}</h3>
             <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">
               {f.desc}
